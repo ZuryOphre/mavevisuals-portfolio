@@ -1,0 +1,47 @@
+{
+  "name": "mavevisuals-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emailjs/browser": "^3.4.0",
+    "firebase": "^9.6.8",
+    "formik": "^2.2.9",
+    "framer-motion": "^6.2.8",
+    "next": "latest",
+    "next-compose-plugins": "^2.2.1",
+    "polished": "^4.1.4",
+    "process": "^0.11.10",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-lazyload": "^3.2.0",
+    "react-loader-spinner": "^6.0.0-0",
+    "react-select": "^5.2.2",
+    "sharp": "^0.30.3",
+    "simple-react-lightbox": "^3.6.9-0",
+    "styled-components": "^5.3.3",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next-sitemap --config next-sitemap.config.js",
+    "start": "next start",
+    "sitemap": "next-sitemap --config next-sitemap.config.js"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^6.2.1",
+    "babel-plugin-styled-components": "^2.0.6",
+    "next-sitemap": "^2.5.10"
+  }
+}
