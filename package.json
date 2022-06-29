@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.4.0",
-    "firebase": "^9.6.8",
+    "firebase": "^9.8.4",
     "formik": "^2.2.9",
     "framer-motion": "^6.2.8",
     "next": "latest",
